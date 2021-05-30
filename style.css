@@ -77,12 +77,16 @@
       max-width: 100% !important;
       width: 100%;
   }
+  .mb{
+    width: 30% !important
+  }
   }
   
   @media screen and (max-width: 1100px){
     .rc {
         margin-top: 150px;
     }
+    
     }
     @media screen and (min-width: 1024px){
       .colmn
