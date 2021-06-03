@@ -70,17 +70,23 @@
 }
 
 
-
-
 @media screen and (min-width: 1280px){
   .contAbt {
       max-width: 100% !important;
       width: 100%;
   }
   .mb{
-    width: 30% !important
+    width: 30% !important;
+    
   }
   }
+  
+
+@media screen and (max-width: 1280px){
+.mb{
+  margin-left: 28% !important;
+}
+}
   
   @media screen and (max-width: 1100px){
     .rc {
@@ -133,6 +139,9 @@
     .heading-rcmd{
       margin: 30px;
     }
+    .mb{
+      margin-left: 26% !important;
+    }
     
     
   }@media only screen and (max-width: 865px) {
@@ -144,7 +153,9 @@
     .heading-rcmd{
       margin: 30px;
     }
-    
+    .mb{
+      margin-left: 24% !important;
+    }
     
   }
   @media only screen and (max-width: 770px) {
@@ -176,7 +187,24 @@
     
     
   }
-
+  @media only screen and (max-width: 720px) {
+    .mb{
+      margin-left: 20% !important;
+    }
+    
+  }
+  @media only screen and (max-width: 700px) {
+    .mb{
+      margin-left: 18% !important;
+    }
+    
+  }
+  @media only screen and (max-width: 650px) {
+    .mb{
+      margin-left: 16% !important;
+    }
+    
+  }
   @media only screen and (max-width: 579px) {
     .indexframe{
       height: 2000px;
@@ -191,6 +219,9 @@
     }
     .about-frame{
       height: 4300px;
+    }
+    .mb{
+      margin-left: 12% !important;
     }
        
   }
@@ -230,10 +261,17 @@
       margin-left: 40%;
     }
   }
+  @media only screen and (max-width: 574px) {
+    
+    .mb{
+      margin-left: 1% !important;
+    }
+  }
   @media only screen and (max-width: 572px) {
     .icon-img{
       margin-top: -12px;
     }
+    
   }
   
   @media only screen and (max-width: 501px) {
